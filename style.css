@@ -6,3 +6,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: white;
 }
+
+.header {
+  background-color: rgb(206, 250, 45);
+}
+
+.header-container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-right {
+  display: flex;
+  width: 40%;
+  max-width: 300px;
+  margin-left: auto;
+}
+
+.searchbox {
+  display: block;
+  width: 100%;
+}
