@@ -17,16 +17,29 @@ body {
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.header-right {
+.search {
   display: flex;
   width: 40%;
+  height: 36px;
+  border-radius: 20px;
+  padding: 0px 20px;
   max-width: 300px;
   margin-left: auto;
+  background-color: white;
+}
+
+.search-icon {
+  display: block;
+  margin: auto;
+  margin-right: 5px;
+  color: gray;
 }
 
 .searchbox {
   display: block;
   width: 100%;
+  border-style: none;
 }
